@@ -1,4 +1,6 @@
-export const plansData = [
+import { Plan } from '../types/Plan'
+
+export const plansData: Plan[] = [
   {
     icon: (
       <svg
@@ -17,6 +19,7 @@ export const plansData = [
       "Free consultaion to coaches",
       "Access to The Community",
     ],
+    key: 1
   },
   {
     icon: (
@@ -36,6 +39,7 @@ export const plansData = [
       "Free consultaion of Coaches",
       "Accessto minibar",
     ],
+    key: 2
   },
   {
     icon: (
@@ -55,5 +59,6 @@ export const plansData = [
       "Consultation of Private Coach",
       "Free Fitness Merchandises",
     ],
+    key: 3
   },
 ];
