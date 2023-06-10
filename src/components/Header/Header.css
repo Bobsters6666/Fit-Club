@@ -8,7 +8,18 @@
   height: 3rem;
 }
 
-.left-h {
-  padding: 2rem;
-  padding-top: 1.5rem;
+.header-menu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  color: white;
+}
+
+.header-menu li {
+  transition: ease-in-out 0.3s;
+}
+
+.header-menu li:hover {
+  color: var(--orange);
+  cursor: pointer;
 }
