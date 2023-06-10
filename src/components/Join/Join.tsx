@@ -1,10 +1,6 @@
 import './Join.css'
-import { useRef } from 'react'
-import emailjs from '@emailjs/browser'
 
 const Join = () => {
-
-  const form = useRef()
 
   return (
     <div className="join" id="join-us">
