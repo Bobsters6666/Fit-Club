@@ -1,5 +1,7 @@
 {
   "name": "fitness",
+  "main": "dist/index",
+  "types": "dist/index",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,13 +12,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "emailjs": "^4.0.2",
+    "framer-motion": "^10.12.16",
+    "number-counter": "^1.0.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-number-counter": "^1.0.8",
+    "react-scroll": "^1.8.9"
   },
   "devDependencies": {
     "@types/react": "^18.0.37",
     "@types/react-dom": "^18.0.11",
+    "@types/react-scroll": "^1.8.7",
     "@typescript-eslint/eslint-plugin": "^5.59.0",
     "@typescript-eslint/parser": "^5.59.0",
     "@vitejs/plugin-react": "^4.0.0",
